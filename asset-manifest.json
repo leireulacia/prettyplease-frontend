@@ -1,31 +1,36 @@
 {
   "files": {
-    "main.css": "/prettyplease-frontend/static/css/main.067410c7.chunk.css",
-    "main.js": "/prettyplease-frontend/static/js/main.c2f14ded.chunk.js",
-    "main.js.map": "/prettyplease-frontend/static/js/main.c2f14ded.chunk.js.map",
+    "main.css": "/prettyplease-frontend/static/css/main.fbdb00fe.chunk.css",
+    "main.js": "/prettyplease-frontend/static/js/main.a41a0031.chunk.js",
+    "main.js.map": "/prettyplease-frontend/static/js/main.a41a0031.chunk.js.map",
     "runtime-main.js": "/prettyplease-frontend/static/js/runtime-main.c638165f.js",
     "runtime-main.js.map": "/prettyplease-frontend/static/js/runtime-main.c638165f.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/prettyplease-frontend/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.aad614a8.chunk.js": "/prettyplease-frontend/static/js/2.aad614a8.chunk.js",
-    "static/js/2.aad614a8.chunk.js.map": "/prettyplease-frontend/static/js/2.aad614a8.chunk.js.map",
+    "static/js/2.c8570dd8.chunk.js": "/prettyplease-frontend/static/js/2.c8570dd8.chunk.js",
+    "static/js/2.c8570dd8.chunk.js.map": "/prettyplease-frontend/static/js/2.c8570dd8.chunk.js.map",
     "index.html": "/prettyplease-frontend/index.html",
-    "precache-manifest.b46ed6417a0b52c9b5d4f81b26716798.js": "/prettyplease-frontend/precache-manifest.b46ed6417a0b52c9b5d4f81b26716798.js",
+    "precache-manifest.70e62526276336d73379c4d1985babf3.js": "/prettyplease-frontend/precache-manifest.70e62526276336d73379c4d1985babf3.js",
     "service-worker.js": "/prettyplease-frontend/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/prettyplease-frontend/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.067410c7.chunk.css.map": "/prettyplease-frontend/static/css/main.067410c7.chunk.css.map",
-    "static/js/2.aad614a8.chunk.js.LICENSE.txt": "/prettyplease-frontend/static/js/2.aad614a8.chunk.js.LICENSE.txt",
-    "static/media/Jean-Seberg.jpg": "/prettyplease-frontend/static/media/Jean-Seberg.aed2ebbe.jpg",
+    "static/css/main.fbdb00fe.chunk.css.map": "/prettyplease-frontend/static/css/main.fbdb00fe.chunk.css.map",
+    "static/js/2.c8570dd8.chunk.js.LICENSE.txt": "/prettyplease-frontend/static/js/2.c8570dd8.chunk.js.LICENSE.txt",
+    "static/media/999club.jpg": "/prettyplease-frontend/static/media/999club.f1947bbd.jpg",
     "static/media/abstract-logo.jpg": "/prettyplease-frontend/static/media/abstract-logo.c12ae83a.jpg",
     "static/media/abstract-logo2.jpg": "/prettyplease-frontend/static/media/abstract-logo2.61e6e747.jpg",
     "static/media/abstract-logo3.jpg": "/prettyplease-frontend/static/media/abstract-logo3.d4d0f2c9.jpg",
     "static/media/abstract-logo4.jpg": "/prettyplease-frontend/static/media/abstract-logo4.053a4a74.jpg",
-    "static/media/charity-logo-orange.png": "/prettyplease-frontend/static/media/charity-logo-orange.4c725eeb.png"
+    "static/media/charity-logo-orange.png": "/prettyplease-frontend/static/media/charity-logo-orange.4c725eeb.png",
+    "static/media/hackneyfoodbank.jpg": "/prettyplease-frontend/static/media/hackneyfoodbank.f5cc36c4.jpg",
+    "static/media/kindness.jpg": "/prettyplease-frontend/static/media/kindness.887e16b3.jpg",
+    "static/media/literoflight.jpg": "/prettyplease-frontend/static/media/literoflight.73033f1a.jpg",
+    "static/media/mind.jpg": "/prettyplease-frontend/static/media/mind.4b8e969c.jpg",
+    "static/media/plasticoceans.jpg": "/prettyplease-frontend/static/media/plasticoceans.1a926e7a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c638165f.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.aad614a8.chunk.js",
-    "static/css/main.067410c7.chunk.css",
-    "static/js/main.c2f14ded.chunk.js"
+    "static/js/2.c8570dd8.chunk.js",
+    "static/css/main.fbdb00fe.chunk.css",
+    "static/js/main.a41a0031.chunk.js"
   ]
 }
