@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05c0f39c9a6012a76c7f2c8f9be730ac",
+    "revision": "a84581cc7cfc631a3876dcf881801fdb",
     "url": "/prettyplease-frontend/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/prettyplease-frontend/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "eb65ecffcf531f854778",
+    "revision": "d13e3cfe69fb36ca26b1",
     "url": "/prettyplease-frontend/static/css/main.9582530d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/prettyplease-frontend/static/js/2.8f32091b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb65ecffcf531f854778",
-    "url": "/prettyplease-frontend/static/js/main.cdb37f2c.chunk.js"
+    "revision": "d13e3cfe69fb36ca26b1",
+    "url": "/prettyplease-frontend/static/js/main.e971e3b1.chunk.js"
   },
   {
     "revision": "c07f7f86c38865880859",

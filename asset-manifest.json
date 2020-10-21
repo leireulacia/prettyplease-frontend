@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/prettyplease-frontend/static/css/main.9582530d.chunk.css",
-    "main.js": "/prettyplease-frontend/static/js/main.cdb37f2c.chunk.js",
-    "main.js.map": "/prettyplease-frontend/static/js/main.cdb37f2c.chunk.js.map",
+    "main.js": "/prettyplease-frontend/static/js/main.e971e3b1.chunk.js",
+    "main.js.map": "/prettyplease-frontend/static/js/main.e971e3b1.chunk.js.map",
     "runtime-main.js": "/prettyplease-frontend/static/js/runtime-main.c638165f.js",
     "runtime-main.js.map": "/prettyplease-frontend/static/js/runtime-main.c638165f.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/prettyplease-frontend/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.8f32091b.chunk.js": "/prettyplease-frontend/static/js/2.8f32091b.chunk.js",
     "static/js/2.8f32091b.chunk.js.map": "/prettyplease-frontend/static/js/2.8f32091b.chunk.js.map",
     "index.html": "/prettyplease-frontend/index.html",
-    "precache-manifest.0fef38ad27e2c680a00c028954f5bba7.js": "/prettyplease-frontend/precache-manifest.0fef38ad27e2c680a00c028954f5bba7.js",
+    "precache-manifest.4ca120f90b4e06b7cdf7587de30c015a.js": "/prettyplease-frontend/precache-manifest.4ca120f90b4e06b7cdf7587de30c015a.js",
     "service-worker.js": "/prettyplease-frontend/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/prettyplease-frontend/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.9582530d.chunk.css.map": "/prettyplease-frontend/static/css/main.9582530d.chunk.css.map",
@@ -31,6 +31,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.8f32091b.chunk.js",
     "static/css/main.9582530d.chunk.css",
-    "static/js/main.cdb37f2c.chunk.js"
+    "static/js/main.e971e3b1.chunk.js"
   ]
 }
