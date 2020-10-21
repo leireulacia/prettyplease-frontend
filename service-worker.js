@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/prettyplease-frontend/precache-manifest.bb67d93c95e0681d586e24a986ba0d77.js"
+  "/prettyplease-frontend/precache-manifest.c5a743a545d615d2b285cab20e0c3938.js"
 );
 
 self.addEventListener('message', (event) => {
