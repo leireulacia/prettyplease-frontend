@@ -165,12 +165,12 @@ export default function App() {
 
   const [isAuth, setIsAuth] = useState(true);
   return (
-    <Router>
+    <Router basename="/">
       <PPNavbar isAuth={isAuth} />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/" component={Main}>
           {/* {" "} */}
-          <Main />
+          {/* <Main /> */}
         </Route>
         <Route path="/ForSponsors/:id" component={SponsorRequestDetails}>
           <SponsorRequestDetails request={sponsorshipRequests} />
