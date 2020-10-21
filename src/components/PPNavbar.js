@@ -3,13 +3,13 @@ import "./Navbar.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 function PPNavbar({ isAuth }) {
   return (
     <Router>
       <Navbar className="navbar" collapseOnSelect expand="lg">
-        <Navbar.Brand className="logo" href="/">
+        <Navbar.Brand className="logo" href="/prettyplease-frontend">
           <h1>
             Pretty{" "}
             <span className="icon" role="img" aria-label="Please">
@@ -22,7 +22,7 @@ function PPNavbar({ isAuth }) {
           <Nav className="mr-auto">
             <Nav.Link href="#">About Us</Nav.Link>
             <Nav.Link href="#">Campaigns</Nav.Link>
-            <Nav.Link href="./#/pages/fqas">FAQs</Nav.Link>
+            <Nav.Link href="./prettyplease-frontend/#/pages/fqas">FAQs</Nav.Link>
             <Nav.Link href="/prettyplease-frontend/#/CharityProfilePage">Charity Profile</Nav.Link>
             <Nav.Link href="/prettyplease-frontend/#/SponsorProfilePage">Sponsor Profile</Nav.Link>
           </Nav>
