@@ -9,7 +9,7 @@ function PPNavbar({ isAuth }) {
   return (
     <Router>
       <Navbar className="navbar" collapseOnSelect expand="lg">
-        <Navbar.Brand className="logo" href="/prettyplease-frontend/">
+        <Navbar.Brand className="logo" href="/">
           <h1>
             Pretty{" "}
             <span className="icon" role="img" aria-label="Please">
@@ -22,9 +22,9 @@ function PPNavbar({ isAuth }) {
           <Nav className="mr-auto">
             <Nav.Link href="#">About Us</Nav.Link>
             <Nav.Link href="#">Campaigns</Nav.Link>
-            <Nav.Link href="./pages/fqas">FAQs</Nav.Link>
-            <Nav.Link href="/prettyplease-frontend/CharityProfilePage">Charity Profile</Nav.Link>
-            <Nav.Link href="/prettyplease-frontend/SponsorProfilePage">Sponsor Profile</Nav.Link>
+            <Nav.Link href="./#/pages/fqas">FAQs</Nav.Link>
+            <Nav.Link href="/#/CharityProfilePage">Charity Profile</Nav.Link>
+            <Nav.Link href="/#/SponsorProfilePage">Sponsor Profile</Nav.Link>
           </Nav>
           <Nav>
             {!isAuth ? (
