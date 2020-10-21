@@ -198,14 +198,14 @@ export default function App() {
           <CharityPage sponsor={charitysp} />
         </Route>
         <Route path="/NewFund" component={FundRequest}></Route>
-        <Route path="/CharityProfilePage">
+        <Route exact path="/CharityProfilePage">
           <CharityProfilePage
             charityData={detailsCharity}
             changeProfile={changeCharityProfile}
           />
         </Route>
         {/* <Route path={process.env.PUBLIC_URL + '/SponsorProfilePage'}> */}
-        <Route path="/SponsorProfilePage" >
+        <Route exact path="/SponsorProfilePage" >
           <SponsorProfilePage
             sponsorData={detailsSponsor}
             changeProfile={changeSponsorProfile}
