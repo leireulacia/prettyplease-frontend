@@ -13,7 +13,7 @@ import SponsorDetailsAccept from "./components/charityview/SponsorDetailsAccept"
 import ConfirmationRequestPage from "./components/fundrequest/ConfirmationRequestPage";
 import FaqsPage from "./pages/faqs";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function App() {
   // const [sponsor, setSponsor] = useState([
@@ -168,7 +168,7 @@ export default function App() {
     <Router basename="/prettyplease-frontend">
       <PPNavbar isAuth={isAuth} />
       <Switch>
-        <Route exact path="/prettyplease-frontend" component={Main}>
+        <Route exact path="/" component={Main}>
           {/* {" "} */}
           {/* <Main /> */}
         </Route>
