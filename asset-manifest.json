@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/prettyplease-frontend/static/css/main.fbdb00fe.chunk.css",
-    "main.js": "/prettyplease-frontend/static/js/main.a41a0031.chunk.js",
-    "main.js.map": "/prettyplease-frontend/static/js/main.a41a0031.chunk.js.map",
+    "main.css": "/prettyplease-frontend/static/css/main.9582530d.chunk.css",
+    "main.js": "/prettyplease-frontend/static/js/main.f434a75e.chunk.js",
+    "main.js.map": "/prettyplease-frontend/static/js/main.f434a75e.chunk.js.map",
     "runtime-main.js": "/prettyplease-frontend/static/js/runtime-main.c638165f.js",
     "runtime-main.js.map": "/prettyplease-frontend/static/js/runtime-main.c638165f.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/prettyplease-frontend/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.c8570dd8.chunk.js": "/prettyplease-frontend/static/js/2.c8570dd8.chunk.js",
-    "static/js/2.c8570dd8.chunk.js.map": "/prettyplease-frontend/static/js/2.c8570dd8.chunk.js.map",
+    "static/js/2.8f32091b.chunk.js": "/prettyplease-frontend/static/js/2.8f32091b.chunk.js",
+    "static/js/2.8f32091b.chunk.js.map": "/prettyplease-frontend/static/js/2.8f32091b.chunk.js.map",
     "index.html": "/prettyplease-frontend/index.html",
-    "precache-manifest.70e62526276336d73379c4d1985babf3.js": "/prettyplease-frontend/precache-manifest.70e62526276336d73379c4d1985babf3.js",
+    "precache-manifest.1f214aa8a8787b7a7935fc93bc243931.js": "/prettyplease-frontend/precache-manifest.1f214aa8a8787b7a7935fc93bc243931.js",
     "service-worker.js": "/prettyplease-frontend/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/prettyplease-frontend/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.fbdb00fe.chunk.css.map": "/prettyplease-frontend/static/css/main.fbdb00fe.chunk.css.map",
-    "static/js/2.c8570dd8.chunk.js.LICENSE.txt": "/prettyplease-frontend/static/js/2.c8570dd8.chunk.js.LICENSE.txt",
+    "static/css/main.9582530d.chunk.css.map": "/prettyplease-frontend/static/css/main.9582530d.chunk.css.map",
+    "static/js/2.8f32091b.chunk.js.LICENSE.txt": "/prettyplease-frontend/static/js/2.8f32091b.chunk.js.LICENSE.txt",
     "static/media/999club.jpg": "/prettyplease-frontend/static/media/999club.f1947bbd.jpg",
     "static/media/abstract-logo.jpg": "/prettyplease-frontend/static/media/abstract-logo.c12ae83a.jpg",
     "static/media/abstract-logo2.jpg": "/prettyplease-frontend/static/media/abstract-logo2.61e6e747.jpg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.c638165f.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.c8570dd8.chunk.js",
-    "static/css/main.fbdb00fe.chunk.css",
-    "static/js/main.a41a0031.chunk.js"
+    "static/js/2.8f32091b.chunk.js",
+    "static/css/main.9582530d.chunk.css",
+    "static/js/main.f434a75e.chunk.js"
   ]
 }
