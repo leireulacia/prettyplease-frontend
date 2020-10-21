@@ -165,7 +165,7 @@ export default function App() {
 
   const [isAuth, setIsAuth] = useState(true);
   return (
-    <Router basename="prettyplease-frontend">
+    <Router basename={process.env.PUBLIC_URL}>
       <PPNavbar isAuth={isAuth} />
       <Switch>
         <Route exact path="/" component={Main}>
