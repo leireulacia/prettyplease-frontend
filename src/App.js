@@ -165,10 +165,10 @@ export default function App() {
 
   const [isAuth, setIsAuth] = useState(true);
   return (
-    <Router basename="/">
+    <Router basename="/prettyplease-frontend">
       <PPNavbar isAuth={isAuth} />
       <Switch>
-        <Route exact path="/" component={Main}>
+        <Route exact path="/prettyplease-frontend" component={Main}>
           {/* {" "} */}
           {/* <Main /> */}
         </Route>
