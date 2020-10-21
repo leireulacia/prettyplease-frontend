@@ -9,7 +9,7 @@ function PPNavbar({ isAuth }) {
   return (
     <Router>
       <Navbar className="navbar" collapseOnSelect expand="lg">
-        <Navbar.Brand className="logo" href="/">
+        <Navbar.Brand className="logo" href="/prettyplease-frontend/">
           <h1>
             Pretty{" "}
             <span className="icon" role="img" aria-label="Please">
