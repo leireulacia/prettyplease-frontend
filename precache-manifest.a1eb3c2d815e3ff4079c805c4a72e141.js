@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02f6fa0b45584953eea7f37fcc26a5ae",
+    "revision": "48d9a8e92edab52ab34a81154c2d1845",
     "url": "/prettyplease-frontend/index.html"
   },
   {
-    "revision": "125b59e15cdf76a8813f",
+    "revision": "fa5cc83e87bdfcd75ea6",
     "url": "/prettyplease-frontend/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "a8f5745ec80550cd6618",
+    "revision": "aa02a30aff00cc1b37f8",
     "url": "/prettyplease-frontend/static/css/main.9582530d.chunk.css"
   },
   {
-    "revision": "125b59e15cdf76a8813f",
-    "url": "/prettyplease-frontend/static/js/2.8f32091b.chunk.js"
+    "revision": "fa5cc83e87bdfcd75ea6",
+    "url": "/prettyplease-frontend/static/js/2.676f8a87.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/prettyplease-frontend/static/js/2.8f32091b.chunk.js.LICENSE.txt"
+    "url": "/prettyplease-frontend/static/js/2.676f8a87.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a8f5745ec80550cd6618",
-    "url": "/prettyplease-frontend/static/js/main.d451dd58.chunk.js"
+    "revision": "aa02a30aff00cc1b37f8",
+    "url": "/prettyplease-frontend/static/js/main.d7ed7372.chunk.js"
   },
   {
     "revision": "c07f7f86c38865880859",
