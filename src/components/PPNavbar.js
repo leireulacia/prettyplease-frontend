@@ -22,7 +22,7 @@ function PPNavbar({ isAuth }) {
           <Nav className="mr-auto">
             <Nav.Link href="#">About Us</Nav.Link>
             <Nav.Link href="#">Campaigns</Nav.Link>
-            <Nav.Link href="./prettyplease-frontend/pages/fqas">FAQs</Nav.Link>
+            <Nav.Link href="./pages/fqas">FAQs</Nav.Link>
             <Nav.Link href="/prettyplease-frontend/CharityProfilePage">Charity Profile</Nav.Link>
             <Nav.Link href="/prettyplease-frontend/SponsorProfilePage">Sponsor Profile</Nav.Link>
           </Nav>
