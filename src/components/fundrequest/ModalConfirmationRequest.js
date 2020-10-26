@@ -38,7 +38,7 @@ function ModalConfirmationRequest(props) {
                     </Col>
                     <Col xs={6} md={10}>
                         {/* Formattedd Amount to show the currency */}
-                        {getFormattedAmount(props.charitydetails.amount)}
+                        {getFormattedAmount(props.charitydetails.amountRequested)}
                     </Col>
                 </Row>
                 <Row>
@@ -46,7 +46,7 @@ function ModalConfirmationRequest(props) {
                         Description:
                                     </Col>
                     <Col xs={6} md={10}>
-                        {props.charitydetails.description}
+                        {props.charitydetails.eventDescription}
                     </Col>
                 </Row>
                 <Row>
@@ -55,7 +55,7 @@ function ModalConfirmationRequest(props) {
                     </Col>
                     <Col xs={6} md={10}>
                         {/* Formattedd duration to show 1 year or x years */}
-                        {(props.charitydetails.isSingleEvent === "true" ? 'One-Off' : getFormattedDuration(props.charitydetails.duration))}
+                        {(props.charitydetails.isSingleEvent === "true" ? 'One-Off' : getFormattedDuration(props.charitydetails.durationInYears))}
                     </Col>
                 </Row>
                 <Row>
