@@ -2,23 +2,15 @@
   "name": "prettyplease-frontend",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
   "homepage": "https://leireulacia.github.io/prettyplease-frontend",
-=======
-  "homepage": "https://tr-hack-to-the-future.github.io/prettyplease-frontend",
->>>>>>> 105931fdbd89f9941ba37520b4964e8ff51ab6f3
   "dependencies": {
     "@styled-icons/fa-regular": "^10.22.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-<<<<<<< HEAD
-    "bootstrap": "^4.5.3",
-=======
     "axios": "^0.20.0",
     "bootstrap": "^4.5.2",
     "firebase": "^7.24.0",
->>>>>>> 105931fdbd89f9941ba37520b4964e8ff51ab6f3
     "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.4.0",
