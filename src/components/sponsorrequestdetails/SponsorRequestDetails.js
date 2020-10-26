@@ -35,7 +35,7 @@ function SponsorRequestDetails({ request }) {
             </Row>
             <div className="rounded mx-auto d-block  text-center">
                 <img
-                    src={dispRequest.image}
+                    src={dispRequest.charityImageUrl}
                     width="200"
                     height="200"
                     alt={dispRequest.charityName}
@@ -55,10 +55,10 @@ function SponsorRequestDetails({ request }) {
             </Row>
             <Row className="pt-2 pb-2 justify-content-md-center">
                 <Col className="text-center">
-                    Amount: {getFormattedAmount(dispRequest.amount)}
+                    Amount: {getFormattedAmount(dispRequest.amountRequested)}
                 </Col>
                 <Col className="text-center">
-                    Duration: {getFormattedDuration(dispRequest.duration)}
+                    Duration: {getFormattedDuration(dispRequest.durationInYears)}
                 </Col>
             </Row>
             <div className="row justify-content-center mt-5 lead">
@@ -69,15 +69,15 @@ function SponsorRequestDetails({ request }) {
             </div>
             <Router>
                 <Row className=" justify-content-center mt-5 ">
-                    <Link to="/#">
+                    {/* <Link to="/#"> */}
                         <Button
                             variant="outline-primary"
                             size="lg"
                             onClick={() => history.goBack()}>
                             Back
                         </Button>
-                    </Link>
-                    <Link to="/#" className="{acceptButtonVisibility}">
+                    {/* </Link> */}
+                    {/* <Link to="/#" className="{acceptButtonVisibility}"> */}
                         {/* <Button variant="outline-primary ml-5" size="lg" onClick={handleClick}>
                             Accept
                         </Button> */}
@@ -99,7 +99,7 @@ function SponsorRequestDetails({ request }) {
                                 </Button>
                             </Modal.Footer>
                         </Modal>
-                    </Link>
+                    {/* </Link> */}
                 </Row>
             </Router>
             <div className="row justify-content-center mt-5"></div>

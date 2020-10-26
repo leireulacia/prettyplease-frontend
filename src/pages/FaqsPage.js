@@ -2,7 +2,7 @@ import React from "react";
 import { FooterContainer } from "../containers/footer";
 import { FaqsContainer } from "../containers/faqs";
 
-export default function FaqsPage() {
+function Faqs() {
   return (
     <>
       <FaqsContainer />
@@ -10,3 +10,5 @@ export default function FaqsPage() {
     </>
   );
 }
+
+export default Faqs;

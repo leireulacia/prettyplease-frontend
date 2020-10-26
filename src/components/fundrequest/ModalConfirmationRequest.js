@@ -1,4 +1,6 @@
 import React, { Component, useState } from 'react';
+import axios from "axios";
+
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
@@ -12,10 +14,20 @@ function ModalConfirmationRequest(props) {
 
     // When press submit button, the data of the form is sent to the backend. Close the Modal and go to page Confirmation Request Page
     const handlerSubmit = () => {
+
         console.log(props.charitydetails);
-        // Call the funtion onHide to close the Modal
-        handleClose();
-        history.push("/ConfirmationRequestPage");
+
+        axios.post("https://xlkpx8p087.execute-api.eu-west-2.amazonaws.com/dev/requests", props.charitydetails)
+            .then(response => {
+                console.log(response)
+                handleClose();   // Call the funtion onHide to close the Modal
+                history.push("/ConfirmationRequestPage");
+            })
+            .catch(error => {
+                console.log(error)
+                handleClose();   // Call the funtion onHide to close the Modal
+                history.push("/FailRequestPage");
+            })
     };
 
     return (

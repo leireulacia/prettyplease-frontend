@@ -7,10 +7,12 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import InputGroup from 'react-bootstrap/InputGroup'
 import ModalConfirmationRequest from './ModalConfirmationRequest';
+import UserContext from '../charityview/charityOffersContext'
 
 function FundRequest() {
     // Variable to control the modal
     const [modalShow, setModalShow] = React.useState(false);
+    //   const currentUser = useContext(UserContext);
 
     const [amountRequested, setAmountRequested] = useState("");
     const [eventDescription, setEventDescription] = useState("");
@@ -131,15 +133,16 @@ function FundRequest() {
                 <Row>
                     <Col md={{ span: 2, offset: 8 }}>
                         <Button onClick={() => setModalShow(true)} variant="outline-primary" type="submit">Submit</Button>
-                        <ModalConfirmationRequest show={modalShow} onHide={() => setModalShow(false)} charitydetails={{
+                        <ModalConfirmationRequest show={modalShow} onHide={() => setModalShow(false)}
+                        charitydetails={{
                             charityId: "CHAZ10",
                             eventDescription: eventDescription,
                             incentive: incentive,
-                            amountRequested: amountRequested,  
-                            amountAgreed: amountRequested,                        
+                            amountRequested: amountRequested,
+                            amountAgreed: amountRequested,
                             isSingleEvent: isSingleEvent,
                             durationInYears: durationInYears,
-                            agreedDurationInYears:durationInYears,
+                            agreedDurationInYears: durationInYears,
                             requestStatus: "OPEN"
                         }} />
                     </Col>
